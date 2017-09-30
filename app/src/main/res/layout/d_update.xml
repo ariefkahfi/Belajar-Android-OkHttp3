@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow android:padding="5dp">
+            <TextView
+                android:layout_marginRight="30dp"
+                android:text="Id Customer"/>
+            <TextView
+                android:id="@+id/updateId"
+                />
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView
+                android:text="Nama"/>
+            <EditText
+                android:id="@+id/updateNama"
+                android:layout_width="200dp"
+                />
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="Produk" android:layout_marginTop="12dp"/>
+            <Spinner
+                android:id="@+id/spinUpdate"
+                android:layout_height="40dp"></Spinner>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
